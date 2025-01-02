@@ -98,7 +98,7 @@ public:
 
     void spawn_colony(int x, int y, int roll_number)
     {
-        int species_number = (roll_number % 6) + 10; // Calculate species number as per your requirement
+        int species_number = (roll_number % 6) + 10; // Calculate species number as per requirement
         if (species_map.find(species_number) != species_map.end())
         {
             string species_name = species_map[species_number];
